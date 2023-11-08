@@ -1,0 +1,17 @@
+/node_modules/
+/lib/
+/test/
+custom-elements.json
+.DS_Store
+# top level source
+age-calculator.js
+age-calculator.js.map
+age-calculator.d.ts
+age-calculator.d.ts.map
+day-month-year-input.js
+day-month-year-input.js.map
+day-month-year-input.d.ts
+day-month-year-input.d.ts.map
+# only generated for size check
+age-calculator.bundled.js
+day-month-year-input.bundled.js
