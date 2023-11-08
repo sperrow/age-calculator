@@ -1,3 +1,6 @@
+# Age Calculator built with Lit 
+https://sperrow.github.io/age-calculator/
+
 # LitElement TypeScript starter
 
 This project includes a sample component using LitElement with TypeScript.
