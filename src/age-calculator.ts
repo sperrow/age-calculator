@@ -47,7 +47,7 @@ export class AgeCalculator extends LitElement {
             list-style-type: none;
             font-family: 'Poppins', sans-serif;
             font-style: italic;
-            font-size: 4rem;
+            font-size: 3.75rem;
             font-weight: 800;
             line-height: 110%;
         }
