@@ -22,7 +22,7 @@ export class AgeCalculator extends LitElement {
         .container {
             border-radius: 20px 20px 160px;
             background-color: var(--white);
-            padding: 2rem;
+            padding: 1.5rem 1.5rem 4rem;
         }
 
         .input-container {
@@ -47,9 +47,10 @@ export class AgeCalculator extends LitElement {
             list-style-type: none;
             font-family: 'Poppins', sans-serif;
             font-style: italic;
-            font-size: 3.75rem;
+            font-size: 3.5rem;
             font-weight: 800;
             line-height: 110%;
+            white-space: nowrap;
         }
 
         .purple {
@@ -220,7 +221,7 @@ export class AgeCalculator extends LitElement {
                         format="year"
                         @input=${this._handleInput}
                     ></day-month-year-input>
-                    <span class="circle"><img src="./icon-arrow.svg" /></span>
+                    <span class="circle"><img src="./icon-arrow.svg" alt="icon arrow" /></span>
                 </div>
                 <div class="amounts-container">
                     <ul>

@@ -43,11 +43,11 @@ export class DayMonthYearInput extends LitElement {
         }
 
         .input {
-            min-width: 4rem;
+            min-width: 3rem;
             padding: 1rem;
             border-radius: 10px;
             border: 1px solid var(--light-grey);
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-weight: 700;
             color: var(--off-black);
         }
@@ -82,6 +82,7 @@ export class DayMonthYearInput extends LitElement {
             }
             .input {
                 min-width: 6rem;
+                font-size: 1.5rem;
             }
         }
     `;
